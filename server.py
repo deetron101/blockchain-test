@@ -1,9 +1,7 @@
 import json
 from uuid import uuid4
 
-from flask import Flask
-from flask import request
-from flask import jsonify
+from flask import Flask, request, jsonify
 from blockchain import Blockchain
 
 # Instantiate a Node
