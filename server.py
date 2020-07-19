@@ -33,7 +33,7 @@ def mine():
     block = blockchain.new_block(proof, previous_hash)
 
     response = {
-        'message': "New Block Forged",
+        'message': "Testing Continuous Delivery. New Block Forged",
         'index': block['index'],
         'transactions': block['transactions'],
         'proof': block['proof'],
